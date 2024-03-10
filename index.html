@@ -79,7 +79,7 @@
         <h2 class="lots__heading">Лоты</h2>
         <!--уровень заголовка секции изменен-->
         <ul class="lots__card-list">
-          <li>
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay">
@@ -99,7 +99,7 @@
               </article>
             </a>
           </li>
-          <li>
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <!--перенесен-->
@@ -123,7 +123,7 @@
               </article>
             </a>
           </li>
-          <li>
+          <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <!--пересен-->
@@ -162,11 +162,11 @@
         </div>
         <h2 class="about__title">Об аукционе</h2>
         <!--изменен уровень заголовка -->
-        <aside class="about__text">
+        <div class="about__text"> <!--заменено на div и удалено br-->
           <!--отделены параграфы в отдельный тег-->
-          <p>
+          <p> 
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-            антиквариата. Наши лоты вообще не должны были попасть <br />ни на один
+            антиквариата. Наши лоты вообще не должны были попасть ни на один
             аукцион. Потому что кому нужен дневник девочки-подростка или картина,
             которую может нарисовать даже ребёнок? Кому нужны все эти странные
             вещи, созданные любителями?
@@ -181,7 +181,7 @@
             никто, продолжали верить их создатели. И сейчас эти лоты стали
             культовыми.       
           </p>
-        </aside>
+        </div>
       </section>
     </main>
     <footer class="footer">

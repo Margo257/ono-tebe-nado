@@ -147,10 +147,11 @@ body {
   font-weight: 400;
   line-height: 1.27;
   text-transform: uppercase;
-  text-align-last: justify;
+  word-spacing: 18px;
   color: #fff;
   z-index: 2;
 }
+
 .bet-button {
   padding: 0;
   border: 1px solid #fff;
@@ -184,15 +185,17 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 22px;
-  flex-grow: 1;
+  gap: 25px;
   list-style: none;
 }
 
-.card-link {
-  display: block;
+.lots__card-list-item {/*ширина и высота карточки заданы к элементу списка и присвоено свойство flex-grow: 1*/
   width: 334px;
   height: 563px;
+  flex-grow: 1;
+}
+
+.card-link {
   text-decoration-line: none;
 }
 
